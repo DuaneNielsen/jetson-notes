@@ -15,3 +15,14 @@ ValueError: Namespace GstRtspServer not available
 
 ```
 
+setup RTSP server
+
+on jetson
+
+```
+sudo apt install gstreamer1.0-rtsp
+```
+
+Follow the below instructions to setup RTSP server
+
+https://stackoverflow.com/questions/69098720/rtspclientsink-test-pipeline-from-command-line/73186851#73186851
